@@ -11,53 +11,84 @@ body {
   background-repeat: no-repeat;
   background-position: 1% 99%, 97% 107%, 50% 100%;
   background-attachment: fixed, fixed, fixed;
-  background-size: 13%, 13%,  15%;
+  background-size: 13%, 13%,  13%;
 
 }
-
+#header {
+    font-family: 'Be Vietnam Pro Regular', sans-serif;
+    letter-spacing: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+#songs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #B5CCE6;
+    padding: 2px;
+    background-color: rgba(235, 242, 246, 0.9);
+    box-sizing: border-box;
+}
+.alternating {
+    color: #479fde;
+    text-decoration: underline;
+}
+.goodbye {
+    font-size: 30px;
+    color: #8396bd;
+}
+.listento {
+    font-size: 32px;
+    color: #333;
+}
 h1 {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 72px;
+    font-size: 80px;
     color: #142C45;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
 }
 h2 {
-    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 48px;
     color: #2F4761;
     margin-bottom: -10px;
 }
 a{
-    color: #5781AD;
+    color: #3A68AB;
     text-decoration: underline;
 }
 p {
     color: #333;
     text-align: center;
-  margin-top: 40px;
-    margin-bottom: 50px;
     font-size: 34px;
 }
 ul {
     font-size: 85%;
     list-style-position: inside;
-    width: fit-content;
-    margin: -30px auto 20px;
-    margin-bottom: -20px;
+    width:fit-content;
+    max-width: 100%;
+    margin: -30px auto 30px;
 }
 hr {
     border: none;
-    width: 30%;
-    height: 3px;
+    width: 32%;
+    max-width: 100%;
+    height: 4px;
     margin-left: auto;
     margin-right: auto;
     background-color: #B5CCE6;
 }
 img{
-    max-width: 12%;
+    width: 450px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: -20px;
-    border-radius: 5%
+    border-radius: 10%;
 }
 img:hover {
     transform: scaleX(-1);
@@ -69,10 +100,10 @@ body:hover::before {
 }
 button {
     background-color: #69A9C9;
-    border-radius: 30px;
+    border-radius: 50px;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
