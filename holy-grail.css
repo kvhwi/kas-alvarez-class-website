@@ -1,6 +1,6 @@
 
 .header {
-background-color: #b7d9ec;
+background-color: #b5d7eb;
 border: 2px solid #86ACED;
 border-radius: 20px;
 width: auto;
@@ -24,7 +24,7 @@ margin: 0 10px 0 0;
 }
 
 .main-content {
-background-color: #c8e8f2;
+background-color: #ddf0f5;
 border: 2px solid #86ACED;
 border-radius: 20px;
 display: flex;
@@ -50,7 +50,7 @@ margin: 0 0 0 10px;
 }
 
 .footer {
-background-color: #b7d9ec;
+background-color: #b5d7eb;
 border: 2px solid #86ACED;
 border-radius: 20px;
 width: auto;
