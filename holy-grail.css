@@ -70,6 +70,7 @@ align-items: center;
     min-height: 0;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
+    text-align: center;
 }
 .page {
     display: flex;
@@ -81,6 +82,7 @@ align-items: center;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
+    text-align: center;
 
 }
 body {

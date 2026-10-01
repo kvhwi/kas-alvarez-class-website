@@ -34,12 +34,14 @@ body {
     justify-content: center;
     flex-direction: column;
     border-radius: 50px;
-    width: 25%;
+    max-width: 25%;
+    min-width: 400px;
     margin: 10px auto;
     border: 2px solid #B5CCE6;
     padding: 20px;
     background-color: rgba(235, 242, 246, 0.9);
     box-sizing: border-box;
+
 }
 .alternating {
     color: #479fde;
